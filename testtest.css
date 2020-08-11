@@ -1,0 +1,35 @@
+h1 test {background-color: bisque;}
+
+.thisIsANiceDiv {
+    border: 50px cyan groove;
+    background-color: rosybrown;
+    padding: 200px;
+}
+.thisIsANiceDiv2 {
+    border: 50px violet groove;
+    background-color: yellowgreen;
+    margin: 20%;
+
+}
+
+.clearDiv{
+    clear: left;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    float: left; /*now this is a nice comment*/
+}
+
+
+    background-color: chocolate;
+}
+#divCss{
+    background-color: darkgrey;
+    height: 100px;
+    width: 50px;
+
+}
