@@ -1,0 +1,26 @@
+.page{
+   display:grid;    
+   height:100vh;
+   grid-template-columns: 20% 40% 20% 20%;
+   grid-template-rows: 8% 87% 5%;
+   grid-template-areas: 'header header header header'
+                        'menu main main main '
+                        'footer footer footer footer'; 
+}
+
+.header{
+    background-color:lightblue;
+    grid-area:header;
+}
+.footer{
+    background-color:darkgray;
+    grid-area:footer;
+}
+.menu{
+    background-color:white;
+    grid-area:menu;
+}
+.main{
+    background-color:seashell;
+    grid-area:main;
+}
